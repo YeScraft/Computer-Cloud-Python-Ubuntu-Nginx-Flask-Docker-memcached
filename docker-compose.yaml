@@ -9,5 +9,8 @@ services:
       - memcached
     build: .
     environment:
+      - PORT=8081
       - MEM_HOST=memcached
       - MEM_PORT=11211
+    ports:
+      - 8081:8081
