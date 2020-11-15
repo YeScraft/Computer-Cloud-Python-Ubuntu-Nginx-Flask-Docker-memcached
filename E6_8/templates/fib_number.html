@@ -1,0 +1,7 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h2 class="mb-4">Число Фибоначчи из числа {{ number }} = {{ f_number }}:</h2>
+    <h4 class="mb-4">{{ message }}</h4>
+    <a href="{{url_for('index')}}" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Назад</a>
+{% endblock %}

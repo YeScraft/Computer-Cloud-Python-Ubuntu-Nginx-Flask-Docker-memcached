@@ -1,0 +1,13 @@
+version: '3'
+services:
+  memcached:
+    image: memcached:latest
+    ports:
+      - 11211:11211
+  server:
+    depends_on:
+      - memcached
+    build: .
+    environment:
+      - MEM_HOST=memcached
+      - MEM_PORT=11211
