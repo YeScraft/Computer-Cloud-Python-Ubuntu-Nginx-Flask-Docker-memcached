@@ -1,4 +1,4 @@
-# YeSergey - E6.8 (веб-сервис, который возвращает числа Фибоначчи - Python, Ubuntu, Nginx, Flask, Docker)
+# YeSergey - E6.8 (веб-сервис, который возвращает числа Фибоначчи - Python, Ubuntu, Nginx, Flask, memcached, Docker)
 
 Приложение реализовано через форму, те вместо GET запроса выполняется POST запрос.
 
